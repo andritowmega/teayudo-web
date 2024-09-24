@@ -1,0 +1,445 @@
+  
+
+.body{
+    font-family: 'arial';
+    text-align: justify;
+}
+
+.row {
+    --bs-gutter-x: 0rem!important;
+}
+
+
+
+/*nav*/
+.navbar img {
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.nav-link{
+    padding-top: 38px!important;
+}
+.logo{
+    width: 180px;
+}
+
+.log_imag {
+    margin-top: -2000px;
+}
+
+.content_pre {
+    width: 125px;
+    margin-top: -6px;
+    margin-left: 22px;
+}
+
+.content_pre2 {
+    width: 125px;
+    margin-top: -6px;
+    margin-left: 22px;
+}
+
+.navbar-light {
+    background-color: white; 
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.nav-link.actives {
+    font-weight: 500;
+}
+
+.nav-link{
+    font-size: 19px;
+}
+
+.nav-item_redes {
+    margin-top: 0;
+    background-color: #7F7F7F;
+}
+
+.nav-item_redes p {
+    color:#fff;
+}
+
+.titulo_contact{
+    opacity: 1!important;
+}
+
+.button_recervar_cita2{
+    width: 16vw;
+    background-color: #013E5B;
+    border: none;
+    color : #fff;
+    font-weight: 400;
+    font-size: 2vw;
+    transition-duration: 0.4s;
+    margin-top: 9vw;
+}
+
+.button_cite {
+    width: 22vw;
+}
+
+.button_recervar_cita:hover {
+    background-color: #FF6400;
+    border-color: #FF6400;
+}
+
+.button_recervar_cita2:hover {
+    background-color: #FF6400;
+    border-color: #FF6400;
+}
+
+
+.pr3 {
+    padding-left: 0.6rem;
+}
+
+.pr {
+   padding-left: 0.6rem;
+}
+
+
+
+.info_max a {
+    text-decoration:none;}
+
+.animacion {
+    background-color: rgb(254,160,47);
+    padding-top: 60px;
+}
+
+.logo a{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+.flag{
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+    padding-top: 10px !important;
+    padding-bottom: 7px !important;
+    border-radius: 5px;
+}
+.flagActive{
+    background-color: #083D5C;
+}
+.flag:hover{
+    background-color: #083D5C;
+}
+
+/*nosotros*/
+
+.text_body2 {
+    background-color: rgb(254,160,47);
+    color:#FEE4B4;
+    line-height: 1;
+
+    
+}
+
+.text_body2 p{
+    font-size: 24px!important;
+    text-align: left;
+    font-weight: 400;
+}
+
+/*cuestions*/
+
+.text_body {
+    background-color: rgb(254,160,47);
+    color:hsl(39, 97%, 85%);
+    line-height: 1;
+}
+
+.text_cuestions {
+    background-color: rgb(254,160,47);
+    line-height: 1;
+}
+
+.table td {
+    color:hsl(39, 97%, 85%);
+}
+
+.text_cuestions h5{
+    color : #fff
+}
+
+.text_cuestions p{
+    color:hsl(39, 97%, 85%);
+}
+
+
+.cuestions  {
+    font-size: 20px!important;
+    font-weight: 900;
+}
+
+.text_body p{
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.text_body img {
+    text-align: justify;
+}
+
+
+/*contacto*/
+.button_contacto_enviar {
+    margin-top: 20px;
+    background-color: rgb(254,160,47);
+    border: none;
+    color : #fff;
+}    
+
+.contacto_links a {
+    text-decoration : none;
+    color: #003B59;
+    font-size: 16px;
+}    
+
+
+.contacto_links p {
+    color: #003B59;
+    font-size: 16px;
+}    
+
+
+.info_max  {
+    opacity: 0.5;
+    line-height: 1.2;
+    font-size: 16px;
+    font-family: Arial;
+} 
+
+.titulo_contact {
+    color:#053D5C; 
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 5px;
+}   
+
+
+
+.titulo_contact2 {
+    color:#053D5C; 
+    font-weight: 500;
+    font-size: 18px;
+}   
+
+
+.form-control {
+    padding: .375rem .50rem!important;
+    height: calc(1.5em + .50rem + 1px);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .4rem !important;
+    padding-left: .4rem !important;
+}
+
+/*footer*/
+footer{
+    margin-top: 30px;
+    color:#000;
+    padding: 15px;
+    opacity: 0.5;
+}    
+
+
+@media only screen and (max-width: 991px) {
+
+    .links {
+        display: none!important;
+    }
+    
+    .navbar-toggler {
+        text-align: center;
+    }
+
+    .top-teayudo {
+        width: 720px !important;
+    }
+
+    .content_pre {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    .content_pre2 {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .pr3 {
+        padding-left: 0;
+    }
+    
+    .pr {
+       padding-left: 0;
+    }
+
+    .row {
+        --bs-gutter-x: 0rem!important;
+    }
+
+}
+
+@media only screen and (min-width: 700px) {
+    .content-teayudo {
+        width: 700px !important;
+    } 
+}
+
+@media only screen and (min-width: 600px) {
+    .top-teayudo {
+        width: 720px !important;
+        margin-left: 3px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 720px!important;
+    }
+}
+
+.espaciobuho {
+    padding-right: 15px!important;
+}
+
+.titulo_contact p{
+    margin: 0!important;
+}
+
+
+/*animacion*/
+
+
+
+@media only screen and (max-width: 767px) {
+    .button_recervar_cita {
+        font-size: 2vw;
+        width: 20vw;
+    }
+
+    .video{
+        height: 52vw!important;
+    }
+
+    .contact-responsive {
+        padding-left: 5vw!important;
+        padding-right: 5vw!important;
+    }
+    
+    .chu {
+        margin-bottom: 50px;
+    }
+
+    .top-teayudo {
+        margin-left: 0px;
+        
+    }
+
+    .imag_contact2 {
+        width: 20%;
+    }
+
+    .text_body img {
+        width:30%;   
+        text-align: center;
+        order:1!important;
+        margin-top: 20px;
+    }
+
+    .buhopeque{
+        width: 60% !important; 
+    }
+
+    .section2 {
+        order: 2;
+    }
+
+    .section2_text {
+        order: 1;
+    }
+
+    .text_body {
+        text-align: center;
+    }
+    .responsive_cuestions {
+        padding-left: 6vw!important;
+        padding-right: 6vw!important;
+        
+    }
+
+    .contacto_links {
+        padding-top: 50px;
+        text-align: center;
+        margin-right: 0!important;
+    }
+
+    .info_max {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .cuestion_margin {
+        margin-left:0;
+    }
+
+    .contact-img2 {
+        width : 20%;
+        margin-bottom: 50px;
+    }
+
+
+    .imag_contact2{
+        margin-bottom: 30px;
+        width: 50%;
+        justify-content: center;
+    }
+
+    .alejo {
+        text-align: center;
+    }
+
+    .buhocovid img{
+        width : 50%;
+        margin-top: 20px;
+    }
+
+    .espaciobuho {
+        padding-right: 0!important;
+    }
+
+    .buhocovid {
+        text-align: center;
+    }
+
+    .pr3 {
+        padding-left: 0;
+    }
+    
+    .pr {
+       padding-left: 0;
+    }
+   
+    .content_pre {
+        width: 50px;
+    }
+    
+    .content_pre2 {
+        width: 50px;
+    }
+
+    .links {
+        display: none!important;
+    }
+}
+
